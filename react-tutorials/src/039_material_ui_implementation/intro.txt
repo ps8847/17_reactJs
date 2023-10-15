@@ -1,0 +1,8 @@
+here material ui is a i\kind of framework like bootstrap 
+
+to use that 
+>> go to google and type "material ui react "
+and go to the website ...
+
+and in sidebar click components >> and her you go!!
+								>> click and copy the code and use it.

@@ -1,0 +1,21 @@
+Here we will make a store for storing the data coming from all reducers 
+
+here we will only create a structure of it 
+
+
+
+In index.js 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+  <Provider store={store}>
+    <App />
+  </Provider>
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Rest in fodlers 

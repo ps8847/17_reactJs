@@ -1,0 +1,16 @@
+Reducer 
+
+*******************
+
+Recuer handle data for store 
+update data in store 
+rules: 
+	* Need root reducer 
+	* reducer must return the same value 
+	* the reducer must have some initial value 
+
+
+
+********************************
+
+

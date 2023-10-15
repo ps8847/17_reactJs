@@ -1,0 +1,9 @@
+1. hooks are the new features introduced in the react 
+
+2. it allows you to use state and other react features without writing a class. hooks are the functions which "hook into" react state and lifecycle features from function components.
+
+3. it does not work inside classes
+
+4. hooks should always be used at the top level of the react functions.
+
+5. node version 6 or above. Npm version 5.2 or above.

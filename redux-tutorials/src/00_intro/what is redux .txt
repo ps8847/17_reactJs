@@ -1,0 +1,67 @@
+
+
+/////////////////////////////////////////////
+
+Saga >> to perform async operations with redux 
+
+
+
+///////////////////////
+
+what is react js ?
+
+1. library for development of web apps 
+
+2. fast and easy in use 
+
+3. but have some disadvantages 
+	* not a complete package like angular 
+	* no state management(share data in componets)
+
+
+///////////////////////
+
+what is redux js ? 
+
+1. library for state management 
+		or 
+1. library for global data management 
+
+2. Redux - a predictable state container.
+
+3. can share data in any component to any component.
+
+
+
+////////////////////////////
+
+Redux artitecture
+
+   Saga
+   ^  |
+   |  |
+   |  \/
+action  ->    reducer  ->  Store 
+
+   /\                      |
+   |                       |
+   |__       View        <--
+
+
+//////////////////////////
+
+What is Saga 
+
+1. handle async data in redux like apis data 
+2. we call it middleware 
+3. middleware between reacting and redux 
+4. here we can write async operations like time taking logics and api calls.
+
+
+//////////////////////////
+
+Make redux wrapper 
+
+1. make all files (action , reducer , store)
+2. make wrapper around react app 
+3. make redux store 

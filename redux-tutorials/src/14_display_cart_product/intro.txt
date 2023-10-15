@@ -1,0 +1,5 @@
+* show added to cart product 
+* get data from redux 
+* make table to show cart product 
+* add style to page 
+* show price and discount

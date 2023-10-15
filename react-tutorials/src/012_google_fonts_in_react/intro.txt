@@ -1,0 +1,15 @@
+just simply go to the google fonts 
+
+choose your font and copy the link of it....
+
+Now, just go to the 
+public/index.html   and paste it there at header section 
+
+
+now,,   you need to use that font fomaliy of that font link in your css file...
+
+example :
+
+h1{
+	font-family : 'cjdcjdkjahjcbdbkcuh';
+}

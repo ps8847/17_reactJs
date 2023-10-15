@@ -1,0 +1,4 @@
+* Make a header and main component 
+* add image and css 
+* send data from main component 
+* get data in header component 

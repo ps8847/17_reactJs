@@ -1,0 +1,25 @@
+searhc on google :::   material ui icons
+
+go to npm >>>   search there also 
+
+no go to termial and type
+
+(NOTE :- after node v7 there will be rror :; to resolve that just type
+>>>  npm config set legacy-peer-deps true)
+
+>> npm i @material-ui/icons
+
+and that install again type
+
+>> npm install @material-ui/core
+
+
+
+now simple choose the icon and copy the link of it like example::
+
+>> import AddIcon from "@material-ui/icons/Add";
+
+paste it to the file where you want to use the Add Icon
+
+STEPS : import : import AddIcon from "@material-ui/icons/Add";
+        use  :  <AddIcon />

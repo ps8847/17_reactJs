@@ -1,0 +1,7 @@
+1. create a react app from scratch 
+
+2. add one h1 element in it 
+
+3. add one p element in it
+
+4. add list of fav 5 Netflix Series in it using an order list

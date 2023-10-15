@@ -1,0 +1,11 @@
+firts of all 
+
+
+delete all the files Except :-
+
+src /
+	index.js
+	index.css
+
+public /
+	index.html  (remove all the comment part)

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        let arr1 = [10, 20, 30];
+
+        let arr2 = [40, 50, 60];
+
+
+        // console.log(arr1);
+        // console.log(arr2);
+
+        let arr3 = [...arr1, ...arr2];
+        // console.log(arr3);
+
+        /* --------------------------------- */
+
+        let obj_1 = {
+            name: "John",
+            age: 23
+        }
+
+        obj_1['pincode'] = 143001;
+
+        let obj_2 = {
+            address: "ABCD"
+        }
+
+        let obj_3 = {...obj_1, ...obj_2};
+        console.log(obj_3);
+
+        // obj_3['pincode'] = 143001;
+
+        // console.log(obj_3);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

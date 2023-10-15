@@ -1,0 +1,14 @@
+every same kind of looking element should have key with it.
+
+for more detail key is added in 020_netflix_project
+	in the Sdata.jsx and index.js file
+
+Actually, keys help React identify which items have changed (added,removed/re-ordered). to give a unique identity to every element inside the array, a key is required.
+
+
+
+about React developer Tools:
+
+we can "add to chrome" the extention named as "react developer tools" >> it will be shown in developer console area...
+
+as compoents and profiler

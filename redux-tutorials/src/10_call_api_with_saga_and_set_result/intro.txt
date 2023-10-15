@@ -1,0 +1,5 @@
+* call saga funcion from action 
+* make function in saga for api 
+* send result from saga to acion 
+* pass data to reducer 
+* get data in main component  

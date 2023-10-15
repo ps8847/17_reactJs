@@ -1,0 +1,3 @@
+simply install it 
+
+npm i styled-components

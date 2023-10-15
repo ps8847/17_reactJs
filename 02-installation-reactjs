@@ -1,0 +1,17 @@
+1. install node and npm 
+
+2. istall vscode 
+
+3. install from terminal
+
+npm install -g create-react-app   << to do this step .... simply go to CMD >> AND paste this 
+create-react-app --version  << after above step ... type this 
+
+Now... type >> d:  
+   in command prompt and make a folder here
+   "mkdir reactapplication"
+   after that 
+   "cd reactapplication"
+
+now finally   do the below step
+create-react-app <projectname> 

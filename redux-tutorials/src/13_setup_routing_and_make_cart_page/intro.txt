@@ -1,0 +1,4 @@
+ * install react router dom 
+ * make main and cart page 
+ * add link with pages 
+ * add style for header and logo 

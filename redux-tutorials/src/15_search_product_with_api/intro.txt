@@ -1,0 +1,4 @@
+* make search box and add style 
+* make action and saga 
+* call api for search product 
+* test api result

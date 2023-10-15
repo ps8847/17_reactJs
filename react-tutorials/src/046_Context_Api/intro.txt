@@ -1,0 +1,9 @@
+sp, react hooks provides a concept call Context 
+
+React context API allow you to easily asscess data at different levels of the component tree ,  without passong prop to every level
+
+steps are:
+
+1. create context 
+2. provider 
+3. consumer 

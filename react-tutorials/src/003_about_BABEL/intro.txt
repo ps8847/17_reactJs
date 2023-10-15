@@ -1,0 +1,22 @@
+its a runtime compiler for the reactsjs 
+
+it comes when we import React 
+
+it simply do th task of convrting the code to react readable form 
+
+if we want to test how it is working
+
+go to google >>> 
+
+		type "Babel"
+		go inside the website and click "try it out"
+
+		paste the line >>>
+		ReactDOM.render( < h1 > hello world Prince.. < /h1>, document.getElementById('root'));
+
+		at writing code we write that code in index.js file ....
+		but it will convert it to
+
+		ReactDOM.render(React.createElement("h1", null, "Hello World Prince"), document.getElementById("root"));
+
+its the work of Babel

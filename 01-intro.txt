@@ -1,0 +1,55 @@
+React is not framework, it is javascript library  for building user interfaces.
+
+it is also known as reactjs and react.js 
+
+
+// history 
+
+was developed in facebook 
+it was first deployed for facebook newsfeed around 2011.
+in 2013, react was open sourced at js conference. 
+
+
+// 
+it is open source 
+
+//
+advantages 
+
+>>>  component based approach   <<<
+
+* a component is one of the core buiding block of react. in other words , we can say that every application you will develop in react will be made of pieces called components. components make the task of building UIs much easier.
+
+
+>>>  uses a declarative approach   <<<
+
+declarative programming is a programming paradigm 
+that expresses the logic of a computation without discribing its control flow.
+
+declarative programming is like asking your friend to draw a landscape. ypu don't care how they draw it, that's up to them.
+
+
+>>> Dom updates are handled very gracefully <<<
+
+>>> Reusable code <<<
+
+>>> React is designed for speed, speed of implementating the application simplicity and scalability  <<<
+
+
+
+why react ??
+
+> created and maintaied by facebbok
+> it has a huge community on github 
+> compoent based artitecture
+
+
+
+
+// prerequisites before reactjs
+
+1. Basic knowledge of htm, css and javascipt .
+2. basic understanding of Ecmascript features.   >> explained in folders (Prerequisite Es6 for ReactJs)
+3. basic understanding of how to use npm.
+
+

@@ -1,0 +1,4 @@
+* make more action and reducers 
+* male remove from cart and empty cart button 
+* actions and reducers from both 
+* update cart count in data in header component 

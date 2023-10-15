@@ -1,0 +1,4 @@
+* show product in ui 
+* add style to product ui 
+* load product when page load 
+*  add to cart and remove cart ui with api data 

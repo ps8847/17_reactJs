@@ -1,0 +1,36 @@
+if we want to use many images in our project ...
+
+then put them in a folder and put that folder in 
+
+public Folder 
+
+
+..........
+
+to use them make a simple file in src file 
+as
+
+Menu.jsx 
+---------
+
+const Menu = [
+	{
+		id : 1,
+		image : 'images/aloopakoda'
+
+		or 
+
+		image : './images/aloopakoda'
+
+		or 
+
+		image : '../images/aloopakoda'
+
+		or 
+
+		image : './../images/aloopakoda'
+
+		
+		we can use any path
+	}
+]

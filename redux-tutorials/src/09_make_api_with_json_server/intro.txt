@@ -1,0 +1,7 @@
+setup json server api 
+
+* why we need json server
+* install json server  >> npm i -g json-server
+* add data and run json server >> make a folder in outside anywhere folder (i made db folder which contains db.json fie in it) >> to run that go to that fle location and write this command in cmd >> json-server --watch db.json --port 3500
+* test api with postman  >> just go to the api and paste link >> http://localhost:3500/product  >> with get method 
+* interview questions 

@@ -1,0 +1,11 @@
+the useContext hook is a little diffrent through. it just makes things nicer.
+
+in case you have'nt heard of React's Context API. it's a way to pass data deeply through your app without having to manually pass props dow through multiple levels. it can be a good alternative to tools like redux when you need to do is pass data around...
+
+we can see the Traditional format of using contect as in 
+
+CompC.jsx 
+
+and with the help of useContext() we can do it in very easy way 
+
+see the >> CompB.jsx

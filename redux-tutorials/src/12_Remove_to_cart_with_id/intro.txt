@@ -1,0 +1,4 @@
+Remove to cart with id 
+
+* apply filter function to reducer 
+* test added products in cart 

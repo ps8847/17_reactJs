@@ -1,0 +1,22 @@
+1. it is world's largets software registery
+
+2. the registery contains over 800,000 code packages.
+
+3. open source developers use npm to share software 
+
+4. it's full form is nde package manager 
+
+
+// INSTALLING..
+
+it is installed with Nodejs
+
+// SOFTWARE PACKAGE MANAGER..
+
+all npm packages are defined in files called package.json.
+
+************************************
+
+for example : we will make a digital clock with npm 
+
+by ::  npm i react-digital-clock

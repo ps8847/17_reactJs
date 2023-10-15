@@ -1,0 +1,39 @@
+what is action 
+
+(send data from react to redux) 
+
+
+1. actions are the plain functions 
+2. get data from react js 
+3. send data to reducer after process 
+4. must have type key in return statemenet 
+5. must sync type with reducer 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+In App.js 
+-----------
+
+import logo from './logo.svg';
+import './App.css';
+import { addToCart } from "./redux/action";
+import { useDispatch } from "react-redux";
+
+function App() {
+  const dispatch = useDispatch();
+
+  const product = {
+    name: "I Phone",
+    category: "mobile",
+    price: 10000,
+    color: "red",
+  };
+  return (
+    <div className="App">
+      <button onClick={() => dispatch(addToCart(product))}>add to cart</button>
+    </div>
+  );
+}
+
+export default App;
