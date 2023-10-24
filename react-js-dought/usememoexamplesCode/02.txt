@@ -1,0 +1,21 @@
+import './App.css';
+import {useMemo, useState} from "react"
+
+function App() {
+
+  const [text , setText] = useState("")
+  const [number , setnumber] = useState("")
+
+  useMemo(() => {
+    console.log("ocmponent re-redner");
+  } , [number])
+  return (
+    <div className='App'>
+      <input value={text} onChange={(e) => setText(e.target.value)} placeholder="enter a text"/>
+      <input value={number} onChange={(e) => setnumber(e.target.value)} placeholder="enter a number"/>
+
+    </div>
+  );
+}
+
+export default App;

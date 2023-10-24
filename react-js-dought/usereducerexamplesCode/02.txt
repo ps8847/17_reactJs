@@ -1,0 +1,67 @@
+import { useReducer } from "react";
+import "./App.css";
+import { INITIAL_STATE, postReducer } from "./postReducer";
+
+function App() {
+  const [ state, dispatch ] = useReducer(postReducer, INITIAL_STATE);
+console.log(state);
+  const handleFetch = () => {
+    dispatch({ type: "FETCH_START" });
+    fetch("https://jsonplaceholder.typicode.com/posts/1")
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        dispatch({ type: "FETCH_SUCCESS", payload: data });
+      })
+      .catch((err) => {
+        dispatch({ type: "FETCH_END" });
+      });
+  };
+  return (
+    <div className="App">
+      <button onClick={handleFetch}>
+        {state.loading ? "Wait..." : "Fetch the post"}
+      </button>
+      <p>{state.post?.title}</p>
+      <span>{state.error && "something went wrong"}</span>
+    </div>
+  );
+}
+
+export default App;
+
+
+***********************************************
+
+
+export const INITIAL_STATE = {
+  loading: false,
+  post: {},
+  error: false,
+};
+
+export const postReducer = (state, action) => {
+  switch (action.type) {
+    case "FETCH_START":
+      return {
+        loading: true,
+        error: false,
+        post: {},
+      };
+    case "FETCH_SUCCESS":
+      return {
+        ...state,
+        loading: false,
+        post: action.payload,
+      };
+    case "FETCH_END":
+      return {
+        loading: false,
+        error: true,
+        post: {},
+      };
+    default:
+        return state;
+  }
+};

@@ -1,0 +1,7 @@
+alternative of useState 
+
+examples are likebelow : 
+
+with useState : 
+
+    

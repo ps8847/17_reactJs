@@ -1,0 +1,27 @@
+
+import './App.css';
+import {useEffect, useMemo, useState} from "react"
+
+function App() {
+
+  const [Name , setName] = useState("")
+  const [Age , setAge] = useState("")
+  const [Country , setCountry] = useState("")
+
+  const userType = {
+    underAge : Age < 18 ? true : false ,
+    citizen : Country === "USA" ? true : false
+  }
+  useEffect(() => {
+    console.log("user type changed ! ");
+  } , [userType])
+
+  return (
+    <div className='App'>
+    
+
+    </div>
+  );
+}
+
+export default App;

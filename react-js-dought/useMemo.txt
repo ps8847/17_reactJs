@@ -1,0 +1,6 @@
+when we dont want to re render the component we use this hook 
+
+to test these one by one ::: ,
+
+    run the examples one by one in App.js file 
+

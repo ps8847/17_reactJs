@@ -1,0 +1,38 @@
+
+import './App.css';
+import {useEffect, useMemo, useState} from "react"
+import ExpensiveComponent from './ExpensiveComponent';
+
+function App() {
+
+  const [text , setText] = useState("")
+
+  console.log("Componnet re-render")
+  return (
+    <div className='App'>
+      <input onChange={(e) => setText(e.target.value)} placeholder='enter a text'/>
+      <ExpensiveComponent />
+    </div>
+  );
+}
+
+export default App;
+
+******************************************
+
+import React, { useMemo } from 'react'
+
+const ExpensiveComponent = React.memo(() => {
+    console.log("expensive component re-render")
+
+    let total = 0;
+
+    for(let i = 0; i < 10000; i++){
+        total += i;
+    }
+  return (
+    <div>ExpensiveComponent</div>
+  )
+})
+
+export default ExpensiveComponent;
