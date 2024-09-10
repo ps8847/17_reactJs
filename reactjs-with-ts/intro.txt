@@ -1,0 +1,5 @@
+Create it with Vite as  :
+
+>> npm create vite@latest
+>> npm i
+>> npm run dev
